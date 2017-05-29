@@ -1,30 +1,55 @@
 {% extends 'layout.nunjucks' %}
 
 {% block content %}
-    <div class="container-fluid">
+    <div>
         <div class="row">
-            <div class="col-xs-12 text-center">
-                <img class="img-responsive text-center" style="margin: auto" src="img/logo.jpg">		
+            <div class="col-md-offset-4 col-md-4 col-sm-offset-1 col-sm-10 col-xs-offset-2 col-xs-8" style="margin-bottom: 10px; padding: 0">
+                <img class="img-responsive text-center" style="margin: auto" src="img/synistralia-900px.png">		
             </div>
         </div>
 
         <br/><br/>
 
         <div class="row">
-            <div class="col-md-3"></div>
-            <p class="col-md-6 lead FFQuadraat-bold-normal text-center">
-                Welcome to the new home of Synistralia Software, LLC.
+            <div class="col-md-2"></div>
+            <p class="lead col-md-8 text-center FFQuadraatWeb">
+                Founded by Mark Watson in 2014, Synistralia Software, LLC is a consulting and web development company based in Bryan, Texas.
             </p>
-            <div class="col-md-3"></div>
+            <div class="col-md-2"></div>
         </div>
 
-        <div class="row">
-            <div class="col-md-2"></div>
-            <p class="col-md-8 text-center FFQuadraatWeb">
-                A new web site is on the way.  In the mean time, please direct all
-                business inquiries to <a href="mailto:mark@synistralia.com">Mark Watson</a>.
-            </p>
-            <div class="col-md-2"></div>
+        <div class="feature-section-odd" style="margin-top: 10px">
+            <h2 class="text-center hidden-xs">About the company</h2>
+            <h3 class="text-center visible-xs">About the company</h3>
+
+            <div class="row feature-section">
+                <div class="col-md-offset-3 col-md-3 col-xs-offset-2 col-xs-8" style="margin-bottom: 30px; padding:0">
+                    <img class="features-image img-circle" src="/img/mark-portrait.jpg">
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <p class="features-text text-center">
+                        Mark Watson, Founder
+                    </p>
+
+                    <p class="features-detail-text text-left">
+                        Born and raised in San Antonio, Texas, Mark studied Computer Science at St. Mary's University before completing a Masters in Computer Science at Texas A&amp;M University.
+                    </p>
+
+                    <p class="features-detail-text text-left">
+                        He now lives on a ranch in Bryan, Texas, with his wife, two kids, and a completely unreasonable number of animals.
+                    </p>
+
+                    <p class="features-detail-text text-left">
+                        You can reach Mark directly at:
+                        <ul style="list-style-type:none">
+                            <li><a href="http://twitter.com/mrwatson2"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i> mrwatson2</a></li>
+                            <li><a href="https://plus.google.com/+MarkWatsonTX"><i class="fa fa-fw fa-google-plus" aria-hidden="true"></i> Google+</a></li>
+                            <li><a href="mailto:mark@synistralia.com"><i class="fa fa-fw fa-envelope" aria-hidden="true"></i> mark@synistralia.com</a></li>
+                            <!--<li><a href="https://www.facebook.com/soapbox.events.web"><i class="fa fa-fw fa-facebook-official" aria-hidden="true"></i> Facebook</a></li>-->
+                        </ul>
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 {% endblock %}

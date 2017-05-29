@@ -1,41 +1,84 @@
 body {
-  padding: 50px;
   font: 14px "FFQuadraat", "Times New Roman", serif;
-  background-color: #424242;
+  background-color: #606060;
   color: #ffffff;
 }
 
 a {
-  color: #00B7FF;
+  color: #1ca2e1;
 }
 
-.FFQuadraatWebDemiBold { 
-	font-family: FFQuadraatWebDemiBold;
-	font-weight: normal;
-	font-style: normal;
+.FFQuadraatWebDemiBold { font-family: FFQuadraatWebDemiBold; }
+.FFQuadraatWebBoldItalic { font-family: FFQuadraatWebBoldItalic; }
+.FFQuadraatWebBold { font-family: FFQuadraatWebBold; }
+.FFQuadraatWebDemiBoldItalic { font-family: FFQuadraatWebDemiBoldItalic; }
+.FFQuadraatWebItalic { font-family: FFQuadraatWebItalic; }
+.FFQuadraatWeb { font-family: FFQuadraatWeb; }
+
+h1, h2, h3, h4, h5 {
+  font-family: FFQuadraatWebBold;
 }
-.FFQuadraat-bold-italic { 
-	font-family: FFQuadraat;
-	font-weight: bold;
-	font-style: italic;
+
+.features-text {
+	font-family: FFQuadraatWebBold;
+	font-size: 150%;
 }
-.FFQuadraat-bold-normal { 
-	font-family: FFQuadraat;
-	font-weight: bold;
-	font-style: normal;
+
+@media (min-width: 993px) {
+	.center-medium {
+		text-align:left;
+	}
 }
-.FFQuadraatWebDemiBoldItalic { 
-	font-family: FFQuadraatWebDemiBoldItalic;
-	font-weight: normal;
-	font-style: normal;
+
+@media (max-width: 992px) {
+	.center-medium {
+		text-align:center;
+	}
 }
-.FFQuadraat-normal-italic { 
-	font-family: FFQuadraat;
-	font-weight: normal;
-	font-style: italic;
+
+.features-detail-text {
+	font-size: 125%;
 }
-.FFQuadraatWeb { 
-	font-family: FFQuadraatWeb;
-	font-weight: normal;
-	font-style: normal;
+
+.features-card {
+	/*border: 1px solid black;
+	border-radius: 10px;*/
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #f7f4ea;
+	padding: 10px;
+    border-radius: 10px;
+}
+
+.feature-section {
+	padding: 20px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.feature-section-odd {
+    background: #1ca2e1;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.feature-section-odd > div > div > p > .btn-primary {
+	background: #fff;
+	color: #1ca2e1;
+}
+
+.feature-section-odd > div > div > p > .btn-primary.active {
+	background: #fff;
+	color: #1ca2e1;
+}
+
+.feature-section-odd > div > div > ul > li > a {
+	color: #fff;
+}
+
+.features-image {
+	width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
 }
