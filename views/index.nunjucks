@@ -1,6 +1,30 @@
 {% extends 'layout.nunjucks' %}
 
 {% block content %}
-  <h1>{{ title }}</h1>
-  <p>Welcome to {{ title }}</p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <img class="img-responsive text-center" style="margin: auto" src="img/logo.jpg">		
+            </div>
+        </div>
+
+        <br/><br/>
+
+        <div class="row">
+            <div class="col-md-3"></div>
+            <p class="col-md-6 lead FFQuadraat-bold-normal text-center">
+                Welcome to the new home of Synistralia Software, LLC.
+            </p>
+            <div class="col-md-3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-2"></div>
+            <p class="col-md-8 text-center FFQuadraatWeb">
+                A new web site is on the way.  In the mean time, please direct all
+                business inquiries to <a href="mailto:mark@synistralia.com">Mark Watson</a>.
+            </p>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
 {% endblock %}

@@ -1,6 +1,38 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+  font: 14px "FFQuadraat", "Times New Roman", serif;
+  background-color: #424242;
+  color: #ffffff; }
 
 a {
   color: #00B7FF; }
+
+.FFQuadraatWebDemiBold {
+  font-family: FFQuadraatWebDemiBold;
+  font-weight: normal;
+  font-style: normal; }
+
+.FFQuadraat-bold-italic {
+  font-family: FFQuadraat;
+  font-weight: bold;
+  font-style: italic; }
+
+.FFQuadraat-bold-normal {
+  font-family: FFQuadraat;
+  font-weight: bold;
+  font-style: normal; }
+
+.FFQuadraatWebDemiBoldItalic {
+  font-family: FFQuadraatWebDemiBoldItalic;
+  font-weight: normal;
+  font-style: normal; }
+
+.FFQuadraat-normal-italic {
+  font-family: FFQuadraat;
+  font-weight: normal;
+  font-style: italic; }
+
+.FFQuadraatWeb {
+  font-family: FFQuadraatWeb;
+  font-weight: normal;
+  font-style: normal; }
