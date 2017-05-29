@@ -13,9 +13,56 @@
     <!-- The main stylesheet -->
     <link rel="stylesheet" href="/css/style.css">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="/components/font-awesome/css/font-awesome.min.css">
+
     {% if ENV_DEVELOPMENT %}
       <script src="http://localhost:35729/livereload.js"></script>
     {% endif %}
+
+    <!--
+/**
+ * @license
+ * MyFonts Webfont Build ID 3397708, 2017-05-29T12:40:34-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: FF Quadraat Web DemiBold by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-quadraat/ot-demi-bold/
+ * Copyright: 2011 Fred Smeijers published by FSI FontShop International GmbH
+ * 
+ * Webfont: FF Quadraat Web Bold Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-quadraat/ot-bold-italic/
+ * Copyright: 2009 Fred Smeijers published by FSI FontShop International GmbH
+ * 
+ * Webfont: FF Quadraat Web Bold by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-quadraat/ot-bold/
+ * Copyright: 2009 Fred Smeijers published by FSI FontShop International GmbH
+ * 
+ * Webfont: FF Quadraat Web DemiBold Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-quadraat/ot-demi-bold-italic/
+ * Copyright: 2011 Fred Smeijers published by FSI FontShop International GmbH
+ * 
+ * Webfont: FF Quadraat Web Italic by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-quadraat/ot-italic/
+ * Copyright: 2009 Fred Smeijers published by FSI FontShop International GmbH
+ * 
+ * Webfont: FF Quadraat Web by FontFont
+ * URL: https://www.myfonts.com/fonts/fontfont/ff-quadraat/ot-regular/
+ * Copyright: 2009 Fred Smeijers published by FSI FontShop International GmbH
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3397708
+ * Licensed pageviews: 500,000
+ * 
+ * © 2017 MyFonts Inc
+*/
+
+-->
 
     <!-- Load the webfonts -->
     <script type="text/javascript">
