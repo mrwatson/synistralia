@@ -15,8 +15,17 @@ a {
 .NeueHaasUnicaPro-Black { font-family: NeueHaasUnicaPro-Black; }
 .NeueHaasUnicaPro-Regular { font-family: NeueHaasUnicaPro-Regular; }
 
-h1, h2, h3, h4, h5 {
+h1, h2 {
   font-family: NeueHaasUnicaPro-Black, Arial, Helvetica, sans-serif;
+}
+
+h3, h4, h5 {
+  font-family: NeueHaasUnicaPro-Bold, Arial, Helvetica, sans-serif;
+}
+
+b, strong {
+  font-family: NeueHaasUnicaPro-Bold, Arial, Helvetica, sans-serif;
+  font-weight: normal;
 }
 
 .features-text {
@@ -86,4 +95,8 @@ h1, h2, h3, h4, h5 {
     height: auto;
     margin: 0;
     padding: 0;
+}
+
+.address-block {
+  margin-top: 10px;
 }

@@ -1,0 +1,86 @@
+{% extends 'layout.nunjucks' %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1 class="pull-left">Mark Watson</h1>
+
+                <div class="pull-right address-block">
+                    P.O. Box 5167<br/>
+                    Bryan, TX 77805<br/>
+                    979-575-8270<br/>
+                    <a href="mailto:mark@synistralia.com">mark@synistralia.com</a>
+                </div>
+            </div>
+        </div>
+
+        <hr/>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Education</h2>
+                <ul>
+                    <li><strong>Master of Computer Science</strong>, Texas A&M University, May 11, 2002, GPA: 3.707</li>
+                    <li><strong>Bachelor of Science in Computer Science</strong>, Summa Cum Laude, St. Mary’s University, December 17, 1999, GPA: 3.97</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Work Experience</h2>
+            
+                <div class="row">
+                    <h3 class="pull-left">Synistralia Software, LLC</h3>
+                    <div class="pull-right">
+                        <strong>Founder and Lead Developer<br/>
+                        Bryan, TX<br/>
+                        October 2014–Present</strong>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <ul>
+                        <li><strong>Contract with Stilman Advanced Strategies:</strong>
+                            <ul>
+                                <li>Added UI polish and new features to Stilman's LG-RAID battlefield simulation software (Angular, Bootstrap, JavaScript). Stilman's simulation software is unique in that the UI is designed to handle much of the workload in the event of poor connectivity to the server. Because of this, it uses Angular very heavily.</li>
+                                <li>Added features to Stilman’s Terrain Data Manager (TDM) software that ingests and processes terrain data to be used in the simulation (Java, GeoServer, GDAL). This required adding features to the Angular UI for TDM and making the corresponding REST endpoints work on the server side. The server runs on Jetty and uses a custom mix of GeoServer, GDAL, and PostgreSQL for terrain data processing.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Created subscription-based website targeted at direct sales marketers – <a href="https://soapbox.events">Soapbox Events</a>.</strong>
+                            <ul>
+                                <li>Built responsive web UI that works on desktops, tablets, and phones using Angular and Bootstrap.</li>
+                                <li>Built server infrastructure using NodeJS and ExpressJS. The server uses Redis and MongoDB databases to maintain state information.</li>
+                                <li>Containerized the app using Docker and deployed to Kubernetes instance on Google Container Engine.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="row">
+                    <h3 class="pull-left">DSCI</h3>
+                    <div class="pull-right">
+                        <strong>Senior Software Engineer II<br/>
+                        Bryan, TX<br/>
+                        November 2002–October 2014</strong>
+                    </div>
+                </div>
+
+                <ul>
+                    <li>Designed and built a face recognition system in C++ to run on networked Linux servers and embedded systems.  Written on top of Poco with a web UI in HTML, CSS, JavaScript, and jQuery.  Used Git for version control.</li>
+                    <li>Traveled to Saudi Arabia to conduct validation and verification testing of security system on Saudi-Iraq border.</li>
+                    <li>Built a prototype Android application to translate tactical radio message traffic for US Army applications.  GUI was done in OpenGL.  Used Subversion for version control.</li>
+                    <li>Worked with a small Agile development team to build a plugin for the US Army’s Tactical Ground Reporting web application to integrate UAV imagery.</li>
+                    <li>Upgraded ASTi digital radio systems at several Army sites around the United States.</li>
+                    <li>Wrote several tactical message translation tools for both Windows and Linux using C++, wxWidgets, and SOAP to support international exercises (SEELEX-5, JEFX06, JEFX08, MNE3, etc.). Worked with various international teams to support exercises in New Jersey and El Paso, Texas.</li>
+                    <li>Built a Close Air Support simulator for USAF in Germany.  Wrote DirectX heads-up displays to run on top of the visuals and built a simple flight and weapon dynamics models in C++. Traveled to Germany to install, train users, and brief leadership.</li>
+                    <li>Wrote instrument panel displays for AVCATT AH-64D Longbow simulator using OpenGL.</li>
+                </ul>
+
+            </div>
+        </div>
+
+        
+    </div>
+{% endblock %}
