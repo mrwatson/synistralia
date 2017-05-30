@@ -1,5 +1,5 @@
 body {
-  font: 14px "FFQuadraat", "Times New Roman", serif;
+  font: 14px NeueHaasUnicaPro-Regular, Arial, Helvetica, sans-serif;
   background-color: #606060;
   color: #ffffff; }
 
@@ -9,26 +9,26 @@ a {
 .FFQuadraatWebDemiBold {
   font-family: FFQuadraatWebDemiBold; }
 
-.FFQuadraatWebBoldItalic {
-  font-family: FFQuadraatWebBoldItalic; }
-
 .FFQuadraatWebBold {
   font-family: FFQuadraatWebBold; }
-
-.FFQuadraatWebDemiBoldItalic {
-  font-family: FFQuadraatWebDemiBoldItalic; }
-
-.FFQuadraatWebItalic {
-  font-family: FFQuadraatWebItalic; }
 
 .FFQuadraatWeb {
   font-family: FFQuadraatWeb; }
 
+.NeueHaasUnicaPro-Bold {
+  font-family: NeueHaasUnicaPro-Bold; }
+
+.NeueHaasUnicaPro-Black {
+  font-family: NeueHaasUnicaPro-Black; }
+
+.NeueHaasUnicaPro-Regular {
+  font-family: NeueHaasUnicaPro-Regular; }
+
 h1, h2, h3, h4, h5 {
-  font-family: FFQuadraatWebBold; }
+  font-family: NeueHaasUnicaPro-Black, Arial, Helvetica, sans-serif; }
 
 .features-text {
-  font-family: FFQuadraatWebBold;
+  font-family: NeueHaasUnicaPro-Bold;
   font-size: 150%; }
 
 @media (min-width: 993px) {
@@ -64,6 +64,10 @@ h1, h2, h3, h4, h5 {
 .feature-section-odd > div > div > p > .btn-primary {
   background: #fff;
   color: #1ca2e1; }
+
+.feature-section-odd > div > div > p > a {
+  color: #ccc;
+  text-decoration: underline; }
 
 .feature-section-odd > div > div > p > .btn-primary.active {
   background: #fff;

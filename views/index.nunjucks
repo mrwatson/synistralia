@@ -12,7 +12,7 @@
 
         <div class="row">
             <div class="col-md-2"></div>
-            <p class="lead col-md-8 text-center FFQuadraatWeb">
+            <p class="lead col-md-8 text-center">
                 Founded by Mark Watson in 2014, Synistralia Software, LLC is a consulting and web development company based in Bryan, Texas.
             </p>
             <div class="col-md-2"></div>
@@ -32,7 +32,11 @@
                     </p>
 
                     <p class="features-detail-text text-left">
-                        Born and raised in San Antonio, Texas, Mark studied Computer Science at St. Mary's University before completing a Masters in Computer Science at Texas A&amp;M University.
+                        Born and raised in San Antonio, Texas, Mark studied Computer Science at St. Mary's University before completing a Masters in Computer Science at Texas A&amp;M University. 
+                    </p>
+
+                    <p class="features-detail-text text-left">
+                        Mark has worked as a professional software developer since his junior year of high school, working in a variety of programming languages and technologies. His full resume is available <a href="/mark-resume">here</a>.
                     </p>
 
                     <p class="features-detail-text text-left">
@@ -42,6 +46,7 @@
                     <p class="features-detail-text text-left">
                         You can reach Mark directly at:
                         <ul style="list-style-type:none">
+                            <li><a href="http://linkedin.com/in/mark-watson-tx"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
                             <li><a href="http://twitter.com/mrwatson2"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i> mrwatson2</a></li>
                             <li><a href="https://plus.google.com/+MarkWatsonTX"><i class="fa fa-fw fa-google-plus" aria-hidden="true"></i> Google+</a></li>
                             <li><a href="mailto:mark@synistralia.com"><i class="fa fa-fw fa-envelope" aria-hidden="true"></i> mark@synistralia.com</a></li>
