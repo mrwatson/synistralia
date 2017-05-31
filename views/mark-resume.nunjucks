@@ -81,6 +81,7 @@
                             <ul>
                                 <li>Built responsive web UI that works on desktops, tablets, and phones using Angular and Bootstrap.</li>
                                 <li>Built server infrastructure using NodeJS and ExpressJS. The server uses Redis and MongoDB databases to maintain state information.</li>
+                                <li>Built billing system using Stripe.</li>
                                 <li>Containerized the app using Docker and deployed to Kubernetes instance on Google Container Engine.</li>
                             </ul>
                         </li>
