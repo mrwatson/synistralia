@@ -36,11 +36,20 @@
         <br/><br/>
 
         <div class="row">
-            <div class="col-md-2"></div>
-            <p class="lead col-md-8 text-center">
-                Founded by Mark Watson in 2014, Synistralia Software, LLC is a consulting and web development company based in Bryan, Texas.
-            </p>
-            <div class="col-md-2"></div>
+            <div class="col-md-offset-2 col-md-8">
+                <p class="lead text-center">
+                    Founded by Mark Watson in 2014, Synistralia Software, LLC is a consulting and web development company based in Bryan, Texas.
+                </p>
+
+                <p class="text-center">
+                    We are always open to new business opportunities and contracting work.
+                </p>
+
+                <p class="text-center">
+                    <a href="mailto:business@synistralia.com" class="btn btn-primary"><i class="fa fa-envelope" aria-hidden="true"></i> Email us</a>
+                </p>
+            </div>
+
         </div>
 
         <div class="feature-section-odd" style="margin-top: 10px">
@@ -48,8 +57,8 @@
             <h3 class="text-center visible-xs">Our Products</h3>
 
             <div class="row feature-section">
-                <div class="col-md-offset-3 col-md-3 col-xs-offset-2 col-xs-8" style="margin-bottom: 30px; padding:0">
-                    <img class="features-image" src="/img/soapbox-logo.png">
+                <div class="col-md-offset-2 col-md-3 col-xs-offset-2 col-xs-8" style="margin-bottom: 30px; padding:0">
+                    <a href="https://soapbox.events"><img class="features-image" src="/img/soapbox-logo.png"></a>
                 </div>
                 <div class="col-md-5 col-xs-12">
                     <p class="features-text text-center">
@@ -107,11 +116,12 @@
                     <p class="features-detail-text text-left">
                         You can reach Mark directly at:
                         <ul style="list-style-type:none">
+                            <li><a href="https://github.com/mrwatson"><i class="fa fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
                             <li><a href="http://linkedin.com/in/mark-watson-tx"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
                             <li><a href="http://twitter.com/mrwatson2"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i> mrwatson2</a></li>
                             <li><a href="https://plus.google.com/+MarkWatsonTX"><i class="fa fa-fw fa-google-plus" aria-hidden="true"></i> Google+</a></li>
                             <li><a href="mailto:mark@synistralia.com"><i class="fa fa-fw fa-envelope" aria-hidden="true"></i> mark@synistralia.com</a></li>
-                            <!--<li><a href="https://www.facebook.com/soapbox.events.web"><i class="fa fa-fw fa-facebook-official" aria-hidden="true"></i> Facebook</a></li>-->
+                            
                         </ul>
                     </p>
                 </div>
