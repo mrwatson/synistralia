@@ -23,6 +23,8 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'nunjucks');
 nunjucks.configure('views', {
     autoescape: true,
+    noCache: app.locals.ENV_DEVELOPMENT,
+    watch: app.locals.ENV_DEVELOPMENT,
     express: app
 });
 

@@ -26,8 +26,8 @@ module.exports = function (grunt) {
     },
     watch: {
       options: {
-        nospawn: true,
-        livereload: true
+        // nospawn: true,
+        // livereload: true
       },
       server: {
         files: [

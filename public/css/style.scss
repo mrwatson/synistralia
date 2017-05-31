@@ -5,7 +5,11 @@ body {
 }
 
 a {
-  color: #1ca2e1;
+  color: #76d3ff;
+}
+
+a:focus, a:hover {
+	color: #70cefb;
 }
 
 .FFQuadraatWebDemiBold { font-family: FFQuadraatWebDemiBold; }
@@ -27,6 +31,18 @@ a {
 
 .navbar-inverse .navbar-brand:hover {
 	text-decoration: underline;
+}
+
+.navbar-inverse .navbar-toggle {
+	background-color: #40404a;
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+	background-color: #1ca2e1;
+	background-image: none;
+	color: white;
+	box-shadow: none;
 }
 
 h1, h2 {
@@ -91,8 +107,12 @@ b, strong {
 }
 
 .feature-section-odd > div > div > p > a {
-  color: #ccc;
+  color: #fadf00;
   text-decoration: underline;
+}
+
+.feature-section-odd > div > div > p > a:hover {
+	color: #fff6a7;
 }
 
 .feature-section-odd > div > div > p > .btn-primary.active {
@@ -138,4 +158,16 @@ b, strong {
 
 .resume-row {
 	margin-right: 5px;
+}
+
+.btn-primary {
+	background-color: #1ca2e1;
+	background-image: none;
+	font-family: NeueHaasUnicaPro-Bold;
+	color: white;
+}
+
+.btn-primary:hover {
+	background-color: #70cefb;
+	background-image: none;
 }
