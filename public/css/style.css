@@ -24,6 +24,17 @@ a {
 .NeueHaasUnicaPro-Regular {
   font-family: NeueHaasUnicaPro-Regular; }
 
+.synistralia-navbar {
+  background-color: #1ca2e1;
+  background-image: none; }
+
+.navbar-inverse .navbar-brand {
+  color: white;
+  font-family: FFQuadraatWebDemiBold; }
+
+.navbar-inverse .navbar-brand:hover {
+  text-decoration: underline; }
+
 h1, h2 {
   font-family: NeueHaasUnicaPro-Black, Arial, Helvetica, sans-serif; }
 
