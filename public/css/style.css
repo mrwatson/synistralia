@@ -117,7 +117,8 @@ b, strong {
   padding: 0; }
 
 .address-block {
-  margin-top: 20px; }
+  margin-top: 20px;
+  padding-left: 20px; }
 
 .resume-portrait {
   max-width: 100px;
