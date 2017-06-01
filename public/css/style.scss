@@ -19,6 +19,11 @@ a:focus, a:hover {
 .NeueHaasUnicaPro-Black { font-family: NeueHaasUnicaPro-Black; }
 .NeueHaasUnicaPro-Regular { font-family: NeueHaasUnicaPro-Regular; }
 
+.main-container {
+	padding-left: 0;
+	padding-right: 0;
+}
+
 .synistralia-navbar {
 	background-color: #1ca2e1;
 	background-image: none;
@@ -56,6 +61,10 @@ h3, h4, h5 {
 b, strong {
   font-family: NeueHaasUnicaPro-Bold, Arial, Helvetica, sans-serif;
   font-weight: normal;
+}
+
+p.padded-p {
+	padding: 10px;
 }
 
 .features-text {

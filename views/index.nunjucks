@@ -1,6 +1,7 @@
 {% extends 'layout.nunjucks' %}
 
 {% block content %}
+<div class="container-fluid main-container">
     <nav class="navbar navbar-inverse synistralia-navbar">
         <div>
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -37,11 +38,11 @@
 
         <div class="row">
             <div class="col-md-offset-2 col-md-8">
-                <p class="lead text-center">
+                <p class="lead text-center padded-p">
                     Founded by Mark Watson in 2014, Synistralia Software, LLC is a consulting and web development company based in Bryan, Texas.
                 </p>
 
-                <p class="text-center">
+                <p class="text-center padded-p">
                     We are always open to new business opportunities and contracting work.
                 </p>
 
@@ -128,4 +129,5 @@
             </div>
         </div>
     </div>
+</div>
 {% endblock %}
