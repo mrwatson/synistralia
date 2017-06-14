@@ -120,9 +120,19 @@ p.padded-p {
 	color: #1ca2e1;
 }
 
+.feature-section-odd > div > div > div > p > .btn-primary {
+	background: #fff;
+	color: #1ca2e1;
+}
+
 .feature-section-odd > div > div > p > a {
   color: #fadf00;
   text-decoration: underline;
+}
+
+.feature-section-odd > div > div > div > ul > li > a {
+  color: #fadf00;
+//   text-decoration: underline;
 }
 
 .feature-section-odd > div > div > p > a:hover {

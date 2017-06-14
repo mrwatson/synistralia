@@ -43,7 +43,7 @@
                 </p>
 
                 <p class="text-center padded-p">
-                    We are always open to new business opportunities and contracting work.
+                    We are always open to new business opportunities, contracting work, and web design projects.
                 </p>
 
                 <p class="text-center">
@@ -85,46 +85,90 @@
             </div>
         </div>
 
-        <div class="feature-section">
-            <h2 class="text-center hidden-xs">Our Developers</h2>
-            <h3 class="text-center visible-xs">Our Developers</h3>
+        <h2 class="text-center hidden-xs">Previous Projects</h2>
+        <h3 class="text-center visible-xs">Previous Projects</h3>
 
-            <div class="row feature-section">
-                <div class="col-md-offset-3 col-md-3 col-xs-offset-2 col-xs-8" style="margin-bottom: 30px; padding:0">
-                    <img class="features-image img-circle" src="/img/mark-portrait.jpg">
-                </div>
-                <div class="col-md-4 col-xs-12">
-                    <p class="features-text text-center">
-                        Mark Watson, Founder
-                    </p>
+        <div class="row feature-section">
+            <div class="col-md-offset-2 col-md-3 col-xs-offset-2 col-xs-8" style="margin-bottom: 30px; padding:0">
+                <a href="http://halhammons.com" target="_blank"><img class="features-image" src="/img/hal-hammons.jpg" style="margin-bottom:20px"></a><br/>
+                <a href="http://perrypropertiesinc.com" target="_blank"><img class="features-image" src="/img/perry-properties.jpg"></a>
+            </div>
+            <div class="col-md-5 col-xs-12">
+                <p class="features-text text-center">
+                    Synistralia Software also offers freelance web design services.
+                </p>
 
-                    <p class="features-detail-text text-left">
-                        Born and raised in San Antonio, Texas, Mark studied Computer Science at St. Mary's University before completing a Masters in Computer Science at Texas A&amp;M University. 
-                    </p>
+                <p class="features-detail-text text-left">
+                    We can design a website that matches your needs exactly. We'll talk through the design with you and then build something that you and your site visitors will love.
+                </p>
 
-                    <p class="features-detail-text text-left">
-                        Mark has worked as a professional software developer since his junior year of high school, working in a variety of programming languages and technologies.
-                    </p>
+                <p class="features-detail-text text-left">
+                    Whether you need a simple one page website to advertise your business or a more complex site, we can design it, build it, and make it work on all screen sizes.
+                </p>
 
-                    <p class="features-detail-text text-left">
-                        He now lives on a ranch in Bryan, Texas, with his wife, two kids, and a completely unreasonable number of animals.
-                    </p>
+                <p class="features-detail-text text-left">
+                    We offer customizable pricing plans. Choose from paying a one time fee for initial setup or a yearly retainer where we handle everything, including hosting fees. The retainer fee setup is particularly useful for busy entrepreneurs that just want to have their web site professionally managed with a minimum of fuss.
+                </p>
 
-                    <p class="features-detail-text text-left">
-                        <a href="/mark-resume" type="button" class="btn btn-primary">Mark's r&eacute;sum&eacute; <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                    </p>
+                <p class="features-detail-text text-left">
+                    Examples of previous work:
+                    <ul>
+                        <li><a href="http://halhammons.com" target="_blank">HalHammons.com - blog</a></li>
+                        <li><a href="http://perrypropertiesinc.com" target="_blank">PerryPropertiesInc.com - real estate developer site</a></li>
+                    </ul>
+                </p>
 
-                    <p class="features-detail-text text-left">
-                        You can reach Mark directly at:
-                        <ul style="list-style-type:none">
-                            <li><a href="https://github.com/mrwatson"><i class="fa fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
-                            <li><a href="http://linkedin.com/in/mark-watson-tx"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
-                            <li><a href="http://twitter.com/mrwatson2"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i> mrwatson2</a></li>
-                            <li><a href="https://plus.google.com/+MarkWatsonTX"><i class="fa fa-fw fa-google-plus" aria-hidden="true"></i> Google+</a></li>
-                            <li><a href="mailto:mark@synistralia.com"><i class="fa fa-fw fa-envelope" aria-hidden="true"></i> mark@synistralia.com</a></li>
-                            
-                        </ul>
+                <p class="features-detail-text text-left">
+                    Since our pricing is customized to the particular job, please email us with what you'd like done and we'll give you a quote.
+                    <p class="text-center">
+                        <a href="mailto:business@synistralia.com" class="btn btn-primary"><i class="fa fa-envelope" aria-hidden="true"></i> Email us</a>
                     </p>
+                </p>
+            </div>
+        </div>
+
+        <div class="feature-section-odd" style="margin-top: 10px">
+            <div class="feature-section">
+                <h2 class="text-center hidden-xs">Our Developers</h2>
+                <h3 class="text-center visible-xs">Our Developers</h3>
+
+                <div class="row feature-section">
+                    <div class="col-md-offset-3 col-md-3 col-xs-offset-2 col-xs-8" style="margin-bottom: 30px; padding:0">
+                        <img class="features-image img-circle" src="/img/mark-portrait.jpg">
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <p class="features-text text-center">
+                            Mark Watson, Founder
+                        </p>
+
+                        <p class="features-detail-text text-left">
+                            Born and raised in San Antonio, Texas, Mark studied Computer Science at St. Mary's University before completing a Masters in Computer Science at Texas A&amp;M University. 
+                        </p>
+
+                        <p class="features-detail-text text-left">
+                            Mark has worked as a professional software developer since his junior year of high school, working in a variety of programming languages and technologies.
+                        </p>
+
+                        <p class="features-detail-text text-left">
+                            He now lives on a ranch in Bryan, Texas, with his wife, two kids, and a completely unreasonable number of animals.
+                        </p>
+
+                        <p class="features-detail-text text-left">
+                            <a href="/mark-resume" type="button" class="btn btn-primary">Mark's r&eacute;sum&eacute; <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </p>
+
+                        <p class="features-detail-text text-left">
+                            You can reach Mark directly at:
+                            <ul style="list-style-type:none">
+                                <li><a href="https://github.com/mrwatson"><i class="fa fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
+                                <li><a href="http://linkedin.com/in/mark-watson-tx"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+                                <li><a href="http://twitter.com/mrwatson2"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i> mrwatson2</a></li>
+                                <li><a href="https://plus.google.com/+MarkWatsonTX"><i class="fa fa-fw fa-google-plus" aria-hidden="true"></i> Google+</a></li>
+                                <li><a href="mailto:mark@synistralia.com"><i class="fa fa-fw fa-envelope" aria-hidden="true"></i> mark@synistralia.com</a></li>
+                                
+                            </ul>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
