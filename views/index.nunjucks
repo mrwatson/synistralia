@@ -87,8 +87,8 @@
 
         <div class="row feature-section">
             <div class="col-md-offset-2 col-md-3 col-xs-offset-2 col-xs-8" style="margin-bottom: 30px; padding:0">
-                <a href="http://halhammons.com" target="_blank"><img class="features-image" src="/img/hal-hammons.jpg" style="margin-bottom:20px"></a><br/>
-                {#<a href="http://perrypropertiesinc.com" target="_blank"><img class="features-image" src="/img/perry-properties.jpg"></a>#}
+                <a href="http://perrypropertiesinc.com" target="_blank"><img class="features-image" style="margin-bottom:20px" src="/img/perry-properties.jpg"></a>
+                <a href="http://halhammons.com" target="_blank"><img class="features-image" src="/img/hal-hammons.jpg"></a><br/>
             </div>
             <div class="col-md-5 col-xs-12">
                 <p class="features-text text-center">
@@ -110,10 +110,10 @@
                 <p class="features-detail-text text-left">
                     Examples of sites we have built:
                     <ul>
+                        <li><a href="http://perrypropertiesinc.com" target="_blank">PerryPropertiesInc.com - real estate developer site</a></li>
                         <li><a href="http://halhammons.com" target="_blank">HalHammons.com - blog</a></li>
                         <li><a href="http://synistralia.com">Synistralia.com - this website</a></li>
                         <li><em>More sites are in the pipeline. Watch this space!</em></li>
-                        {#<li><a href="http://perrypropertiesinc.com" target="_blank">PerryPropertiesInc.com - real estate developer site</a></li>#}
                     </ul>
                 </p>
 
